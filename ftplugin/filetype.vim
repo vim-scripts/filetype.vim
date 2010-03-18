@@ -6,8 +6,8 @@ endif
 
 augroup filetypedetect
 
-au! BufRead,BufNewFile *.applescript,*.as	setf applescript
-au! BufRead,BufNewFile *.plt,.gnuplot		setf gnuplot
+au! BufNewFile,BufRead *.applescript   setf applescript
+au! BufNewFile,BufRead *.plt,*.gnuplot setf gnuplot
 
 augroup END
 
